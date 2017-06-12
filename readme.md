@@ -5,13 +5,16 @@ Fast build system with browserify. Vue and Framework 7. Cordova ready.
 
 ``` bash
 # install dependencies
-npm install
+yarn install
 
 # serve with hot reload at localhost:8080
 npm run dev
 
 # build for production with minification
 npm run build
+
+# To add a platform
+cordova platform add android ios browser
 
 # For release
 cordova build --release
