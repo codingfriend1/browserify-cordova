@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/jonpaul/.nvm/versions/node/v7.6.0/bin/node',
+1 verbose cli   '/Users/jonpaul/.nvm/versions/node/v7.6.0/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'dev' ]
+2 info using npm@4.1.2
+3 info using node@v7.6.0
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle com.practice.cordova@1.0.0~predev: com.practice.cordova@1.0.0
+6 silly lifecycle com.practice.cordova@1.0.0~predev: no script for predev, continuing
+7 info lifecycle com.practice.cordova@1.0.0~dev: com.practice.cordova@1.0.0
+8 verbose lifecycle com.practice.cordova@1.0.0~dev: unsafe-perm in lifecycle true
+9 verbose lifecycle com.practice.cordova@1.0.0~dev: PATH: /Users/jonpaul/.nvm/versions/node/v7.6.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/jonpaul/Desktop/POCS/cordova/browserify-vue-framework7/node_modules/.bin:/Users/jonpaul/.nvm/versions/node/v7.6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+10 verbose lifecycle com.practice.cordova@1.0.0~dev: CWD: /Users/jonpaul/Desktop/POCS/cordova/browserify-vue-framework7
+11 silly lifecycle com.practice.cordova@1.0.0~dev: Args: [ '-c', 'npm-run-all --parallel watchify serve' ]
+12 info lifecycle com.practice.cordova@1.0.0~dev: Failed to exec dev script
+13 verbose stack Error: com.practice.cordova@1.0.0 dev: `npm-run-all --parallel watchify serve`
+13 verbose stack spawn ENOENT
+13 verbose stack     at ChildProcess.<anonymous> (/Users/jonpaul/.nvm/versions/node/v7.6.0/lib/node_modules/npm/lib/utils/spawn.js:33:16)
+13 verbose stack     at emitTwo (events.js:106:13)
+13 verbose stack     at ChildProcess.emit (events.js:192:7)
+13 verbose stack     at maybeClose (internal/child_process.js:890:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+14 verbose pkgid com.practice.cordova@1.0.0
+15 verbose cwd /Users/jonpaul/Desktop/POCS/cordova/browserify-vue-framework7
+16 error Darwin 16.5.0
+17 error argv "/Users/jonpaul/.nvm/versions/node/v7.6.0/bin/node" "/Users/jonpaul/.nvm/versions/node/v7.6.0/bin/npm" "run" "dev"
+18 error node v7.6.0
+19 error npm  v4.1.2
+20 error file sh
+21 error code ELIFECYCLE
+22 error errno ENOENT
+23 error syscall spawn
+24 error com.practice.cordova@1.0.0 dev: `npm-run-all --parallel watchify serve`
+24 error spawn ENOENT
+25 error Failed at the com.practice.cordova@1.0.0 dev script 'npm-run-all --parallel watchify serve'.
+25 error Make sure you have the latest version of node.js and npm installed.
+25 error If you do, this is most likely a problem with the com.practice.cordova package,
+25 error not with npm itself.
+25 error Tell the author that this fails on your system:
+25 error     npm-run-all --parallel watchify serve
+25 error You can get information on how to open an issue for this project with:
+25 error     npm bugs com.practice.cordova
+25 error Or if that isn't available, you can get their info via:
+25 error     npm owner ls com.practice.cordova
+25 error There is likely additional logging output above.
+26 verbose exit [ 1, true ]
